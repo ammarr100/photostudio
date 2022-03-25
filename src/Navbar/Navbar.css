@@ -1,0 +1,120 @@
+
+.navbar-desktop{
+    /* border: 2px solid red; */
+    background: rgba(128, 128, 128, 0.164);
+        padding: 3rem 0;
+        
+        
+}
+.desktop-container{
+    /* border: 2px solid green; */
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content:space-between;
+    align-items: center;   
+    
+}
+.logo a{
+font-size: 3rem;
+text-decoration: none;
+text-transform: uppercase;
+color: black;
+}
+
+
+.desktop-links ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.desktop-links a{
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    margin-left: 1.5rem;
+    color: black;
+
+
+}
+.desktop-links a:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+    border-radius: 1rem;
+}
+
+/* ******Mobile Menu************ */
+
+.navbar-mobile{
+    /* border: 2px solid black; */
+    display: none;
+}
+.ham-icon{
+    font-size: 40px;    
+    display: flex;
+    justify-content: flex-end;
+}
+.mobile-links{
+    /* border: 2px solid black; */
+    position: relative;
+}
+.mobile-links ul {
+    /* border: 2px solid green; */
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    font-size: 2rem;
+    /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;;
+    text-align: center;
+    
+
+}
+.mobile-links li {
+/* margin-bottom: 3rem; */
+padding: 2rem;
+
+}
+.mobile-links li:hover {
+    
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    color: white;
+    transition: 0.5s;
+}
+.mobile-links li:hover >a{
+    color: white;
+    /* text-decoration: none; */
+    transition: 0.5s;
+}
+.mobile-links a {
+   text-decoration: none;
+   /* padding: 1rem; */
+   color: black;
+   
+
+}
+
+/* *************Media Queries*********** */
+
+@media (max-width:990px) {
+    .desktop-links{
+        display: none;
+    }
+    .desktop-container{
+        justify-content: center;
+    }
+
+    .navbar-mobile{
+        /* border: 2px solid black; */
+        background: #EAEAEA;
+        display: flex;
+    }
+    .logo{
+        
+    }
+}
+

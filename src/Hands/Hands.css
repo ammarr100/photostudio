@@ -1,0 +1,70 @@
+.hands{
+    /* border: 2px solid red; */
+    /* padding: 5rem 0; */
+    /* height: 80vh; */
+    
+}
+.hands-image{
+/*   
+    border: 2px solid blue;
+    width: 100%;
+    max-width: 100%;
+     */
+    
+    
+    
+    
+    background-image: url(../Hands/hands.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 1400px){
+    .hands-image{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 1150px){
+    .hands-image{
+        height: 50vh;
+    }
+}
+
+@media (max-width: 950px){
+    .hands-image{
+        height: 50vh;
+    }
+}
+@media (max-width: 850px){
+    .hands-image{
+        height: 40vh;
+    }
+}
+@media (max-width: 700px){
+    .hands-image{
+        height: 40vh;
+    }
+}
+@media (max-width: 450px){
+    .hands-image{
+        height: 30vh;
+    }
+}
+
+@media (orientation:landscape)and (max-width: 900px){
+    .hands-image{
+        height: 60vh;
+    }
+}
+
+/* .hands-image img {
+    width: 100%;
+    max-width: 100%;
+   
+    object-fit: cover;
+    object-position: center;
+} */

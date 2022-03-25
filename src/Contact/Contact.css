@@ -1,0 +1,91 @@
+.contact{
+/* border: 2px solid red; */
+padding: 5rem 0;
+}
+.contact-container{
+/* border: 2px solid blue; */
+display: flex;
+justify-content:center;
+gap: 4rem;
+}
+.contact-text{
+    /* border: 2px solid green; */
+    width: 350px;
+    max-width: 350px;
+    padding: 2rem;
+}
+.contact-text h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.contact-text h2{
+    font-weight: lighter;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+}
+.contact-text p{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+span{
+    font-weight: bold;
+}
+.contact-image{
+    width: 350px;
+    max-width: 350px;
+    height: 45rem;
+    
+    
+    background: black;         
+    /* border: 2px solid orange; */
+    
+}
+.contact-image img{
+    margin-top: 30%;
+    margin-left: 25%;
+      width: 180px;
+      /* max-width: 150px; */
+    /* height: 150px;   */
+      /* border: 2px solid green; */
+
+    object-fit:cover;
+    object-position: center;
+    
+}
+.contact-input{
+    
+    width: 350px;
+    max-width: 350px;
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+
+}
+.input-area{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+.btn-contact{
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    padding: 1rem 2rem;
+    background: black;
+    cursor: pointer;
+    border: none;
+}
+.btn-contact a{
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width:990px){
+    .contact-container{
+        flex-wrap: wrap;
+        gap: 10rem;
+    }
+}
