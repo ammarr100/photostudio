@@ -6,10 +6,10 @@ const Events = () => {
       <>
           <section className='events'>
                 <div className='events-container container'>
-                    <div className='events-image'>
+                    <div className='events-image' data-aos="zoom-in">
                         <img src={EImage} alt="" />
                     </div>
-                    <div className='events-text'>
+                    <div className='events-text' data-aos="fade-up">
                         <h1>An Elevated Photo Experience For Events</h1>
                         <h2>SEE HOW IT WORK</h2>
 <p className='event-para'>Jamal was our lead photographer and we also had a second photographer and a videographer. As soon as we met Jamal, we immediately felt comfortable with him. He took our engagement pictures, and by the outcome of those, we truly could not wait to see how our actual wedding pictures would come out! Jamal and his crew were extremely professional, fun, and energetic.</p> 

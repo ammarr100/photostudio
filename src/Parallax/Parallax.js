@@ -9,7 +9,7 @@ const Parallax = () => {
         <div className='parallax-container'>
             <div className='parallax-image1'>
             
-            <div className='parallax-image2'>
+            <div className='parallax-image2' data-aos="zoom-in">
             <img src={olivia} alt="" />
             </div>
             </div>

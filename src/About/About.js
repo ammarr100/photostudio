@@ -13,10 +13,10 @@ const About = () => {
                             <p>Award Winning Wedding, Portrait and Commerical Photographers. Jamie has been awarded Maryland's Wedding Photographer of the Year in 2013 and Maryland Portrait Photographer of the Year in 2013.</p>
                     </div>
 <section className='imageText'>
-<div className='about-image'>
+<div className='about-image' data-aos="flip-right">
 <img src={about} alt="" />
 </div>
-<div className='about-text2'>
+<div className='about-text2' data-aos="zoom-in">
 <p className='spacing'>We are not only twin brothers, we are story tellers. We are photographic artists with our own distinct approach to photography; our own unique style of creating your portrait; our own personal way of capturing, memorializing and preserving your wedding or special event in a manner that you can appreciate. <br />
 </p>
 <p className='spacing'>

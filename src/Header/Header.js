@@ -8,13 +8,13 @@ const Header = () => {
       <>
 <section className='header'>
 <div className='header-container container'>
-  <div className='header-textbox'>
+  <div className='header-textbox' data-aos="flip-left">
   <h2>YOUR GUESTS WILL<br />LOOK STUNNING!</h2>
   
   <h1>Photo Studio</h1>
   <p>He is blessed to have photography as a career. He really enjoys being appreciated by his clients and the most common compliment he gets is that he is patient and professional.</p>
   </div>
-  <div className='header-imagebox'>
+  <div className='header-imagebox' data-aos="zoom-in">
   
   <div className='box-wrapper'>
   <div className='imagebox1'>

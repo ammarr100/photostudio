@@ -6,7 +6,7 @@ const Hands = () => {
   return (
       <>
           <section className='hands'>
-            <div className='hands-image'>
+            <div className='hands-image' data-aos="fade-up">
             {/* <img src={hands} alt="" /> */}
             </div>
           </section>
