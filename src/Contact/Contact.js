@@ -10,8 +10,8 @@ const Contact = () => {
             <div className='contact-container container'>
                 <div className='contact-text' data-aos="flip-left">
                 <h1>Contact Us</h1>
-                <h2>+61 0416466039<br />
-                ammarr@msn.com</h2>
+                <h2>+61 0420883693<br />
+                contact@ammar.tech</h2>
                 <p>
                 Thank you for your interest in Turner Photography Studio. We would love to hear from you!Our hours of operation are <span>Tuesday - Friday 10am to 6pm,</span> appointments preferred. Please fill out the contact form below and you will hear from us shortly!</p>
                 </div>
